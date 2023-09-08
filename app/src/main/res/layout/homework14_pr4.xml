@@ -9,7 +9,6 @@
     android:background="#F2F2F2"
     >
 
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,46 +18,46 @@
         android:gravity="center"
         android:layout_marginTop="100dp"
         />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="FULL NAME"
         android:textSize="16sp"
-        android:layout_marginTop="60dp"
-        />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#929292"
-android:layout_marginTop="15dp"
-        />
+        android:layout_marginTop="60dp"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="EMAIL ADDRESS"
-        android:textSize="16sp"
-        android:layout_marginTop="44dp"
-        />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/input_bg"
         android:layout_marginTop="15dp"
         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" EMAIL ADDRESS"
+        android:textSize="16sp"
+        android:layout_marginTop="44dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_bg"
+        android:layout_marginTop="15dp"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="CONFIRM PASSWORD"
         android:textSize="16sp"
-        android:layout_marginTop="44dp"
-        />
+        android:layout_marginTop="44dp"/>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#929292"
-        android:layout_marginTop="15dp"
-        />
+        android:background="@drawable/input_bg"
+        android:layout_marginTop="15dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -66,18 +65,29 @@ android:layout_marginTop="15dp"
         android:orientation="horizontal"
         android:weightSum="10"
         android:gravity="center"
-        android:layout_marginTop="31dp"
-        />
+        android:layout_marginTop="31dp">
 
-    <com.google.android.material.button.MaterialButton
-        android:layout_width="0dp"
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:backgroundTint="#228812"
+            android:text="SIGN UP"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SIGN UP"
+        android:text="By continuing, you agree to
+accept our Privacy Policy & Terms of Services "
         android:gravity="center"
-        android:textSize="13sp"
-        />
+        android:textSize="13sp"/>
 
 </LinearLayout>
+
+
 
 
 
